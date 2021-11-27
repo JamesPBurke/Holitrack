@@ -1,9 +1,9 @@
 import pygsheets
 import pandas as pd
 #authorization
-gc = pygsheets.authorize(service_file='/Users/drmom/Dropbox/Dev/Python Programs/Google Sheets/creds.json')
+gc = pygsheets.authorize(service_file='/home/pi/Documents/cred/gsheetcred.json')
 
-# Create empty dataframe
+# Create empty datafrme
 # df = pd.DataFrame()
 
 # Create a column
