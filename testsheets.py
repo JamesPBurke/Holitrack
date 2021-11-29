@@ -1,7 +1,10 @@
 import pygsheets
 import pandas as pd
 #authorization
-gc = pygsheets.authorize(service_file='/home/pi/Documents/cred/gsheetcred.json')
+#gc = pygsheets.authorize(service_file='/home/pi/Documents/cred/gsheetcred.json')
+gc = pygsheets.authorize(service_file='/Users/drmom/Dropbox/Dev/Python Programs/Google Sheets/gsheetcred.json')
+
+
 
 # Create empty datafrme
 # df = pd.DataFrame()
